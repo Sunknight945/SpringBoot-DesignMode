@@ -1,4 +1,4 @@
-package com.appleyk.DMA2_抽象工厂.KeyBoard;
+package com.appleyk.DMA2_抽象工厂.keyboard;
 
 import com.appleyk.DMA2_抽象工厂.DM2.IProduceKeyBord;
 
@@ -10,9 +10,9 @@ import com.appleyk.DMA2_抽象工厂.DM2.IProduceKeyBord;
  * @date Created on 上午 11:36 2018-11-6
  * @version v0.1.1
  */
-public class LeiBoKeyBord implements IProduceKeyBord {
+public class LeiBoKeyboard implements IProduceKeyBord {
     @Override
-    public void produceKeyBord(String name, String color) {
+    public void produceKeyboard(String name, String color) {
         System.out.println("雷柏键盘 -- "+name+","+color);
     }
 }

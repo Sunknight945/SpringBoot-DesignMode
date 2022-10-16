@@ -12,11 +12,11 @@ public abstract class AbstractCalculator {
 
     public final double calculate(String formula, String splitChar) {
         // 1、第一步，先根据计算公式和分隔符，拿到要计算的数值（假设这个是核心，不对外公布）
-        double[] splitArry = split(formula, splitChar);
+        double[] splits = split(formula, splitChar);
         // 2、第二步，各个算法类代表发个言吧（默认不发言的，一律按父类说的来）
         hookSay();
         // 3、第三步，话说完了，各个算法（子）类开始干活吧（这时候别再指望父类帮你默认实现了，休想！）
-        return calculate(splitArry[0], splitArry[1]);
+        return calculate(splits[0], splits[1]);
     }
 
 

@@ -1,4 +1,4 @@
-package com.appleyk.DMA9_外观模式.DM9.ModuleA;
+package com.appleyk.DMA9_外观模式.DM9.moduleA;
 
 /**
  * <p>外观模式A == 聚合子模块A中的子系统A和B，降低客户端操作子模块A的复杂度</p>

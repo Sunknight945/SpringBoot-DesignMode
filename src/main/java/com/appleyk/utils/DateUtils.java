@@ -1,6 +1,7 @@
 package com.appleyk.utils;
 
 import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -14,9 +15,6 @@ public class DateUtils {
 
     /**
      * 截取时间戳
-     *
-     * @param time
-     * @return
      */
     public static Long getTime(long time) {
         String timeStr = String.valueOf(time);

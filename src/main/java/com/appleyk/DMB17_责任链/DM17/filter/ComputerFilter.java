@@ -18,7 +18,7 @@ public class ComputerFilter extends AbstractFilter {
     /**
      * 是否加载键盘
      */
-    private Boolean loadKeyBord = false;
+    private Boolean loadKeyboard = false;
 
     /**
      * 是否加载鼠标
@@ -37,12 +37,12 @@ public class ComputerFilter extends AbstractFilter {
         this.loadMonitor = loadMonitor;
     }
 
-    public Boolean getLoadKeyBord() {
-        return loadKeyBord;
+    public Boolean getLoadKeyboard() {
+        return loadKeyboard;
     }
 
-    public void setLoadKeyBord(Boolean loadKeyBord) {
-        this.loadKeyBord = loadKeyBord;
+    public void setLoadKeyboard(Boolean loadKeyboard) {
+        this.loadKeyboard = loadKeyboard;
     }
 
     public Boolean getLoadMouse() {

@@ -26,7 +26,7 @@ public class TreeNode {
     /**
      * 节点的子节点
      */
-    private List<TreeNode> childrens = new ArrayList<>();
+    private List<TreeNode> children = new ArrayList<>();
 
     public TreeNode() {
     }
@@ -51,43 +51,41 @@ public class TreeNode {
         this.parent = parent;
     }
 
-    public List<TreeNode> getChildrens() {
-        return childrens;
+    public List<TreeNode> getChildren() {
+        return children;
     }
 
-    public void setChildrens(List<TreeNode> childrens) {
-        this.childrens = childrens;
+    public void setChildren(List<TreeNode> children) {
+        this.children = children;
     }
 
     public void addChildren(TreeNode node) {
         // 别忘设置节点的父
         node.setParent(this);
-        this.childrens.add(node);
+        this.children.add(node);
     }
 
     public TreeNode addChildren(String node) {
         TreeNode cNode = new TreeNode(node);
         // 别忘设置节点的父
         cNode.setParent(this);
-        this.childrens.add(cNode);
+        this.children.add(cNode);
         return cNode;
     }
 
     public void removeChildren(TreeNode node) {
-        this.childrens.remove(node);
+        this.children.remove(node);
     }
 
     /**
      * 是否是叶子
      */
     public boolean isLeaf() {
-        return !(this.childrens.size() > 0) && (this.parent != null);
+        return !(this.children.size() > 0) && (this.parent != null);
     }
 
     /**
      * 是否有父节点 == 如果没有，就是根节点
-     *
-     * @return
      */
     public boolean hasParent() {
         return !(this.parent == null);
@@ -95,8 +93,6 @@ public class TreeNode {
 
     /**
      * 根节点没有父节点
-     *
-     * @return
      */
     public boolean isRoot() {
         return this.parent == null;

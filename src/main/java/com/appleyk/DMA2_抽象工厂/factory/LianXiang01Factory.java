@@ -1,10 +1,10 @@
-package com.appleyk.DMA2_抽象工厂.Factory;
+package com.appleyk.DMA2_抽象工厂.factory;
 
 import com.appleyk.DMA2_抽象工厂.DM2.IComputerFactory;
 import com.appleyk.DMA2_抽象工厂.DM2.IProduceKeyBord;
 import com.appleyk.DMA2_抽象工厂.DM2.IProduceMouse;
-import com.appleyk.DMA2_抽象工厂.KeyBoard.LeiBoKeyBord;
-import com.appleyk.DMA2_抽象工厂.Mouse.LeiBoMouse;
+import com.appleyk.DMA2_抽象工厂.keyboard.LeiBoKeyboard;
+import com.appleyk.DMA2_抽象工厂.mouse.LeiBoMouse;
 
 /**
  * <p>联想电脑生产商 == 电脑型号01【固定键盘和鼠标生产商】</p>
@@ -20,7 +20,7 @@ public class LianXiang01Factory implements IComputerFactory {
     @Override
     public IProduceKeyBord createKeyBord() {
         // 使用雷柏的键盘
-        return new LeiBoKeyBord();
+        return new LeiBoKeyboard();
     }
 
     @Override

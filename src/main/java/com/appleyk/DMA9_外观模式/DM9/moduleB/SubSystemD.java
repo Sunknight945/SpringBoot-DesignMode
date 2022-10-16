@@ -1,4 +1,4 @@
-package com.appleyk.DMA9_外观模式.DM9.ModuleB;
+package com.appleyk.DMA9_外观模式.DM9.moduleB;
 
 /**
  * <p>模块B下的子系统D</p>

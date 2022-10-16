@@ -11,7 +11,7 @@ import java.util.List;
  * @date Created on 下午 1:05 2018-11-21
  * @version v0.1.1
  */
-public abstract class AbstractSubject implements com.appleyk.DMB15_观察者模式.DM15.标准简易版.INotify {
+public abstract class AbstractSubject implements INotify {
 
     private List<IObserver> observers = new ArrayList<>();
 

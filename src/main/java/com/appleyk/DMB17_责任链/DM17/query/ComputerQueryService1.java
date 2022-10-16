@@ -2,7 +2,7 @@ package com.appleyk.DMB17_责任链.DM17.query;
 
 import com.appleyk.DMB17_责任链.DM17.filter.ComputerFilter;
 import com.appleyk.DMB17_责任链.DM17.model.Computer;
-import com.appleyk.DMB17_责任链.DM17.model.KeyBord;
+import com.appleyk.DMB17_责任链.DM17.model.Keyboard;
 import com.appleyk.DMB17_责任链.DM17.model.Monitor;
 import com.appleyk.DMB17_责任链.DM17.model.Mouse;
 import com.appleyk.utils.IdsMaker;
@@ -28,7 +28,7 @@ public class ComputerQueryService1 {
     public List<Computer> query(ComputerFilter filter) {
         List<Computer> computers = getComputers(filter);
         loadMonitors(computers, filter);
-        loadKeyBords(computers, filter);
+        loadKeyboards(computers, filter);
         loadMouses(computers, filter);
         return computers;
     }
@@ -80,14 +80,14 @@ public class ComputerQueryService1 {
      * @param computers 电脑集合
      * @param filter    电脑查询过滤器
      */
-    private void loadKeyBords(List<Computer> computers, ComputerFilter filter) {
-        Boolean loadKeyBord = filter.getLoadKeyBord();
-        if (loadKeyBord) {
+    private void loadKeyboards(List<Computer> computers, ComputerFilter filter) {
+        Boolean loadKeyboard = filter.getLoadKeyboard();
+        if (loadKeyboard) {
             for (Computer computer : computers) {
-                KeyBord keyBord = new KeyBord("无线");
-                keyBord.setId(idsMaker.nextId());
-                keyBord.setName("雷柏键盘");
-                computer.setKeyBord(keyBord);
+                Keyboard keyboard = new Keyboard("无线");
+                keyboard.setId(idsMaker.nextId());
+                keyboard.setName("雷柏键盘");
+                computer.setKeyboard(keyboard);
             }
         }
     }

@@ -8,14 +8,14 @@ package com.appleyk.DMB17_责任链.DM17.model;
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 2:02 2018-11-6
  */
-public class KeyBord extends AbstractObject {
+public class Keyboard extends AbstractObject {
 
     /**
      * 键盘类型
      */
     private String type;
 
-    public KeyBord(String type) {
+    public Keyboard(String type) {
         this.type = type;
     }
 

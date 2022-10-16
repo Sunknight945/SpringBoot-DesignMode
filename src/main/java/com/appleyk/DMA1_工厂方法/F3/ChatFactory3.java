@@ -19,5 +19,4 @@ public class ChatFactory3 {
     public static IChat createWeiXinChat(){
         return new WeiXin();
     }
-
 }

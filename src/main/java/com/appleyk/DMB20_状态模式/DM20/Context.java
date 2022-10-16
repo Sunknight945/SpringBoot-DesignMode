@@ -10,9 +10,7 @@ package com.appleyk.DMB20_状态模式.DM20;
  */
 public class Context {
 
-    /**
-     * 持有一个状态
-     */
+    /**持有一个状态*/
     private AState state;
 
     public Context() {

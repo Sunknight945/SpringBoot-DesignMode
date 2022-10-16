@@ -12,7 +12,5 @@ import java.sql.Statement;
  * @date Created on 下午 1:05 2018-11-21
  */
 public interface IStatementCallback {
-
     Object doInStatement(Statement stmt) throws SQLException;
-
 }

@@ -1,4 +1,4 @@
-package com.appleyk.DMA2_抽象工厂.Mouse;
+package com.appleyk.DMA2_抽象工厂.mouse;
 
 import com.appleyk.DMA2_抽象工厂.DM2.IProduceMouse;
 

@@ -9,7 +9,6 @@ package com.appleyk.DMB20_状态模式.DM20;
  * @date created on 2019/12/6 11:00 PM
  */
 public class ConcreteStateB extends AState {
-
     @Override
     public void handle(Context context) {
         System.out.println("我是状态B,关");

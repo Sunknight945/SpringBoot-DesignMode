@@ -1,9 +1,6 @@
 package com.appleyk.DMA3_单例模式;
 
-import com.appleyk.DMA3_单例模式.DM3.Singleton1;
-import com.appleyk.DMA3_单例模式.DM3.Singleton2;
-import com.appleyk.DMA3_单例模式.DM3.Singleton3;
-import com.appleyk.DMA3_单例模式.DM3.Singleton4;
+import com.appleyk.DMA3_单例模式.DM3.*;
 
 /**
  * <p>单例模式测试</p>
@@ -40,8 +37,14 @@ public class SingletonTest {
         Singleton4 singleton4 = Singleton4.getInstance();
         singleton4.show();
 
+        System.out.println("==================分割线");
+
+        // 5、单例模式 -- DCL（双重检查锁）
+        Singleton5 singleton5 = Singleton5.getInstance();
+        singleton5.show();
+
         /**
-         * 以上四种单例模式，没有一种是十全十美的
+         * 以上五种单例模式，没有一种是十全十美的
          * 就拿最后一种来说，通过内部类机制达到了线程安全且实例只被创建一次，这些都是JVM帮我们实现的，我们无需关心
          * 但是，如果内部类自己的构造函数出现了问题，而不是在创建instance实例的时候出现了问题
          * 这时候，我们试想一下，我们外部还能顺利拿到单例对象吗？答案是肯定不行

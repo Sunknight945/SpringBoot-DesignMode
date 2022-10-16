@@ -28,14 +28,14 @@ public class Computer extends AbstractObject{
     /**
      * 组成 -- 键盘
      */
-    private KeyBord keyBord;
+    private Keyboard keyboard;
 
     /**
      * 组成 -- 鼠标
      */
     private Mouse mouse;
 
-    public  Computer(String company,Double price){
+    public Computer(String company,Double price){
         this.company = company;
         this.price = price;
     }
@@ -48,12 +48,12 @@ public class Computer extends AbstractObject{
         this.monitor = monitor;
     }
 
-    public KeyBord getKeyBord() {
-        return keyBord;
+    public Keyboard getKeyboard() {
+        return keyboard;
     }
 
-    public void setKeyBord(KeyBord keyBord) {
-        this.keyBord = keyBord;
+    public void setKeyboard(Keyboard keyboard) {
+        this.keyboard = keyboard;
     }
 
     public Mouse getMouse() {

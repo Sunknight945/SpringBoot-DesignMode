@@ -37,7 +37,6 @@ public enum EWorkType {
     /**
      * 通过name获取对应的枚举对象
      * @param name 类型名称
-     * @return
      */
     public static EWorkType getEnum(String name){
         for(EWorkType typeEnum : EWorkType.values()){
@@ -51,7 +50,6 @@ public enum EWorkType {
     /**
      * 通过value获取对应的枚举对象
      * @param value 类型值
-     * @return
      */
     @JsonCreator
     public static EWorkType getEnum(Integer value){

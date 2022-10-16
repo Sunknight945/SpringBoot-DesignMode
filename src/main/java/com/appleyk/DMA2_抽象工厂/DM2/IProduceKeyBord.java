@@ -14,5 +14,5 @@ public interface IProduceKeyBord {
      * @param name  名称
      * @param color 颜色
      */
-     void produceKeyBord(String name,String color);
+     void produceKeyboard(String name, String color);
 }

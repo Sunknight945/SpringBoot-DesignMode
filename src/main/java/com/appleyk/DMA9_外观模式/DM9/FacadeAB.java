@@ -1,7 +1,7 @@
 package com.appleyk.DMA9_外观模式.DM9;
 
-import com.appleyk.DMA9_外观模式.DM9.ModuleA.FacadeA;
-import com.appleyk.DMA9_外观模式.DM9.ModuleB.FacadeB;
+import com.appleyk.DMA9_外观模式.DM9.moduleA.FacadeA;
+import com.appleyk.DMA9_外观模式.DM9.moduleB.FacadeB;
 
 /**
  * <p>外观模式AB == 聚合子模块A和子模块B的功能，降低客户端使用模块A和模块B的复杂度</p>

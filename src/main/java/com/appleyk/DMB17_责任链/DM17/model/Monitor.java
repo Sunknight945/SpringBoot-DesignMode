@@ -10,9 +10,7 @@ package com.appleyk.DMB17_责任链.DM17.model;
  */
 public class Monitor extends AbstractObject {
 
-    /**
-     * 尺寸
-     */
+    /**尺寸*/
     private Integer size;
 
     public Monitor() {

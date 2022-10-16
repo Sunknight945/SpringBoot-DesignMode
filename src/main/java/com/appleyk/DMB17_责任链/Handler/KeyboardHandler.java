@@ -5,7 +5,7 @@ import java.util.List;
 import com.appleyk.DMB17_责任链.DM17.AbstractHandler;
 import com.appleyk.DMB17_责任链.DM17.filter.ComputerFilter;
 import com.appleyk.DMB17_责任链.DM17.model.Computer;
-import com.appleyk.DMB17_责任链.DM17.model.KeyBord;
+import com.appleyk.DMB17_责任链.DM17.model.Keyboard;
 
 /**
  * <p>键盘处理事件</p>
@@ -15,18 +15,18 @@ import com.appleyk.DMB17_责任链.DM17.model.KeyBord;
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:26 2018-11-7
  */
-public class KeyBordHandler extends AbstractHandler<List<Computer>, ComputerFilter> {
+public class KeyboardHandler extends AbstractHandler<List<Computer>, ComputerFilter> {
 
     @Override
     public List<Computer> filter(ComputerFilter filter) {
         List<Computer> computers = this.getData();
-        Boolean loadKeyBord = filter.getLoadKeyBord();
-        if (loadKeyBord) {
+        Boolean loadKeyboard = filter.getLoadKeyboard();
+        if (loadKeyboard) {
             for (Computer computer : computers) {
-                KeyBord keyBord = new KeyBord("无线");
-                keyBord.setId(idsMaker.nextId());
-                keyBord.setName("雷柏键盘");
-                computer.setKeyBord(keyBord);
+                Keyboard keyboard = new Keyboard("无线");
+                keyboard.setId(idsMaker.nextId());
+                keyboard.setName("雷柏键盘");
+                computer.setKeyboard(keyboard);
             }
         }
         return computers;

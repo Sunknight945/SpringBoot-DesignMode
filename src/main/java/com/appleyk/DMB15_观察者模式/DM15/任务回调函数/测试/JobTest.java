@@ -9,7 +9,6 @@ import java.text.NumberFormat;
 
 public class JobTest {
     public static void main(String[] args) throws Exception{
-
         TJob job = TJob.builder().id(1001L)
                 .name("数据传输任务（50M）").size(1024L * 1024L * 50).build();
         System.out.println("任务名称："+job.getName()+"传输结束，任务状态："+job.getStatus());

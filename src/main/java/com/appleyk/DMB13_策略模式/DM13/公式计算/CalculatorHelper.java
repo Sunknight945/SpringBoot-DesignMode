@@ -11,14 +11,12 @@ package com.appleyk.DMB13_策略模式.DM13.公式计算;
 public class CalculatorHelper {
 
     public static double[] getValArray(String formula, String splitChar) {
-
         //记得消除空格
         String array[] = formula.trim().split(splitChar);
         double arrayDouble[] = new double[2];
         arrayDouble[0] = Double.parseDouble(array[0]);
         arrayDouble[1] = Double.parseDouble(array[1]);
         return arrayDouble;
-
     }
 
 }

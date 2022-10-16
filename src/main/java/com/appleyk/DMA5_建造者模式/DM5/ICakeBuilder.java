@@ -14,12 +14,12 @@ public interface ICakeBuilder {
     /**
      * 揉面
      */
-    void  knead();
+    void knead();
 
     /**
      * 发酵
      */
-    void  ferment();
+    void ferment();
 
     /**
      * 烘烤

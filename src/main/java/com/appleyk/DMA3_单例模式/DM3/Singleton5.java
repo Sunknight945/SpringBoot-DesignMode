@@ -18,7 +18,6 @@ public class Singleton5 {
 
     /**
      * 区别于Singleton2,注意synchronized关键字【同步块】的位置
-     * @return
      */
     public static Singleton5 getInstance() {
         if (instance == null) {

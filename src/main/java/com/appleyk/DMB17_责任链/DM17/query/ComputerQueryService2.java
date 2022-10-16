@@ -8,7 +8,7 @@ import com.appleyk.DMB17_责任链.DM17.AbstractHandler;
 import com.appleyk.DMB17_责任链.DM17.filter.ComputerFilter;
 import com.appleyk.DMB17_责任链.DM17.model.Computer;
 import com.appleyk.DMB17_责任链.Handler.ComputerHandler;
-import com.appleyk.DMB17_责任链.Handler.KeyBordHandler;
+import com.appleyk.DMB17_责任链.Handler.KeyboardHandler;
 import com.appleyk.DMB17_责任链.Handler.MonitorHandler;
 import com.appleyk.DMB17_责任链.Handler.MouseHandler;
 
@@ -28,13 +28,13 @@ public class ComputerQueryService2 {
         // 逐个创建任务
         ComputerHandler computerHandler = new ComputerHandler();
         MonitorHandler monitorHandler = new MonitorHandler();
-        KeyBordHandler keyBordHandler = new KeyBordHandler();
+        KeyboardHandler keyboardHandler = new KeyboardHandler();
         MouseHandler mouseHandler = new MouseHandler();
 
         // 设置任务之间的关系 == 设置任务之间的链条
         computerHandler.setNextHandler(monitorHandler);
-        monitorHandler.setNextHandler(keyBordHandler);
-        keyBordHandler.setNextHandler(mouseHandler);
+        monitorHandler.setNextHandler(keyboardHandler);
+        keyboardHandler.setNextHandler(mouseHandler);
 
         //执行任务链，从第一个任务事件开始执行，最终执行完拿到结果
         List<Computer> computers = (List<Computer>) AbstractHandler.process(computerHandler, filter);

@@ -33,11 +33,9 @@ public enum ESexType {
         this.value = value;
     }
 
-
     /**
      * 通过name获取对应的枚举对象
      * @param name 类型名称
-     * @return
      */
     public static ESexType getEnum(String name){
         for(ESexType sexEnum : ESexType.values()){
@@ -51,7 +49,6 @@ public enum ESexType {
     /**
      * 通过value获取对应的枚举对象
      * @param value 类型值
-     * @return
      */
     @JsonCreator
     public static ESexType getEnum(Integer value){

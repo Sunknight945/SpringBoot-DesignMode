@@ -3,8 +3,6 @@ package com.appleyk.DMB11_组合模式.DM11.login;
 import com.appleyk.DMB11_组合模式.DM11.AbstractTree;
 import com.appleyk.DMB11_组合模式.DM11.TreeNode;
 
-import java.util.List;
-
 /**
  * <p>登录流程图 == 继承抽象树结构</p>
  *
@@ -30,7 +28,7 @@ public class LoginDiagram extends AbstractTree {
         }
 
         // 递归遍历
-        for (TreeNode cNode : node.getChildrens()) {
+        for (TreeNode cNode : node.getChildren()) {
             traverse(cNode);
         }
     }
