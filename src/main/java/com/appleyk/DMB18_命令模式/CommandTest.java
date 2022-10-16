@@ -3,6 +3,10 @@ package com.appleyk.DMB18_命令模式;
 import com.appleyk.DMB18_命令模式.DM18.传统模式.ConcreteCommand;
 import com.appleyk.DMB18_命令模式.DM18.传统模式.Invoker;
 import com.appleyk.DMB18_命令模式.DM18.传统模式.Receiver;
+import com.appleyk.DMB18_命令模式.DM18.开关灯.Bedroom;
+import com.appleyk.DMB18_命令模式.DM18.开关灯.LightOffCommand;
+import com.appleyk.DMB18_命令模式.DM18.开关灯.LightOnCommand;
+import com.appleyk.DMB18_命令模式.DM18.开关灯.RemoteControl;
 
 /**
  * <p>命令模式测试</p>
@@ -15,16 +19,33 @@ import com.appleyk.DMB18_命令模式.DM18.传统模式.Receiver;
 public class CommandTest {
 
     public static void main(String[] args) {
-        command();
+        command1();
+        System.out.println("=========================");
+        command2();
     }
 
-    private static void command() {
+    private static void command1() {
         Receiver receiver = new Receiver("吕蒙");
         Invoker leader = new Invoker(new ConcreteCommand(receiver,
                 "去，趁关羽攻打许昌，赶紧偷渡长江把荆州给我抢回来！"));
         leader.setName("孙权");
         // 领导发话了
         leader.action();
+    }
+    private static void command2(){
+        Bedroom bedroom = new Bedroom();
+        LightOnCommand lightOnCommand = new LightOnCommand();
+        lightOnCommand.setBedroom(bedroom);
+        LightOffCommand lightOffCommand = new LightOffCommand();
+        lightOffCommand.setBedroom(bedroom);
+
+        int slot = 0;
+        RemoteControl remoteControl = new RemoteControl();
+        remoteControl.setCommand(slot,lightOnCommand,lightOffCommand);
+        remoteControl.onButtonPushed(slot);
+        remoteControl.offButtonPushed(slot);
+        remoteControl.onButtonPushed(slot);
+        remoteControl.undoButtonPushed();
     }
 
     /**
