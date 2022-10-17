@@ -9,5 +9,5 @@ package com.appleyk.DMC21_解释器.增强版;
  * @date created on 2022/10/16:21:40
  */
 public interface IExpression {
-    boolean intercept(String expression);
+    boolean interpret(String expression);
 }

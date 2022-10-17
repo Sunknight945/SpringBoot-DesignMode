@@ -34,7 +34,7 @@ public class Context {
     }
 
     public void operation(String sentence){
-        boolean bMatch = expression.intercept(sentence);
+        boolean bMatch = expression.interpret(sentence);
         log.info("句子是否和解释器设计模式有关：{}",(bMatch ? "有" : "没有"));
     }
 }

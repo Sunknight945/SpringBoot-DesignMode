@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * @blob https://blog.csdn.net/appleyk
  * @date created on 19:50 2022/10/16
  */
-public class InterceptorTest {
+public class InterpreterTest {
     public static void main(String[] args) throws Exception{
         Context context = new Context();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

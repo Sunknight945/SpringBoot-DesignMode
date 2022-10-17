@@ -27,7 +27,7 @@ public class CharacterTerminalExpression implements IExpression{
     }
     /**判断是否包含某个字符*/
     @Override
-    public boolean intercept(String character) {
+    public boolean interpret(String character) {
         return CollectionUtils.isEmpty(chars) ? false : chars.contains(character);
     }
 

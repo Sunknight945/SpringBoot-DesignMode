@@ -24,7 +24,7 @@ public class NoTerminalExpression implements IExpression{
     private IExpression specificNumberExp;
     /**同时符合上述三个表达式解释规则的才返回true*/
     @Override
-    public boolean intercept(String input) {
+    public boolean interpret(String input) {
         if (input == null || "".equals(input.trim())){
             return false;
         }
@@ -38,8 +38,8 @@ public class NoTerminalExpression implements IExpression{
          * 3、第2个输入必须满足特殊字符的规则
          * 4、第3个输入必须满足特殊数字的规则
          */
-        return enLetterExp.intercept(split[0])
-                && specificSymbolExp.intercept(split[1])
-                && specificNumberExp.intercept(split[2]);
+        return enLetterExp.interpret(split[0])
+                && specificSymbolExp.interpret(split[1])
+                && specificNumberExp.interpret(split[2]);
     }
 }

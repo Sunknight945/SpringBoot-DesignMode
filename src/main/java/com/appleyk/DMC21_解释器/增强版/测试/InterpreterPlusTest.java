@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  * @date created on 2022/10/16:22:19
  */
 @Slf4j
-public class InterceptorPlusTest {
+public class InterpreterPlusTest {
     public static void main(String[] args) {
         Context context = new Context();
         String input1 = "1-a-&";

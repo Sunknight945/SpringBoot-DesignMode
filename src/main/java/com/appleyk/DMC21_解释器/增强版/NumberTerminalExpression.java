@@ -21,7 +21,7 @@ public class NumberTerminalExpression implements IExpression{
     }
     /**判断是number是否是>=1 且 <=10 且是偶数！*/
     @Override
-    public boolean intercept(String number) {
+    public boolean interpret(String number) {
         if (number == null){
             return false;
         }

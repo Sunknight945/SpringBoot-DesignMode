@@ -27,7 +27,7 @@ public class TerminalExpression extends AbstractExpression{
     private String word;
 
     @Override
-    public boolean intercept(String sentence) {
+    public boolean interpret(String sentence) {
         return sentence == null ? false : sentence.contains(word);
     }
 }

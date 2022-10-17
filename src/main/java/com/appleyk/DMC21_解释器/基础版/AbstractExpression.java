@@ -15,5 +15,5 @@ public abstract class AbstractExpression {
      * 对指定的句子进行解析
      * @param sentence 句子字符串
      */
-    public abstract boolean intercept(String sentence);
+    public abstract boolean interpret(String sentence);
 }

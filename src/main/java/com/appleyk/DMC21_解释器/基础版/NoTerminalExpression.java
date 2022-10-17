@@ -31,8 +31,8 @@ public class NoTerminalExpression extends AbstractExpression{
     /**当然也可以是表达式N....*/
 
     @Override
-    public boolean intercept(String sentence) {
+    public boolean interpret(String sentence) {
         /**这里解释规则基于不同的场景可以定义不同的实现方式：比如这里的是并集，当然也可以是或或者其他*/
-        return expression1.intercept(sentence) && expression2.intercept(sentence);
+        return expression1.interpret(sentence) && expression2.interpret(sentence);
     }
 }

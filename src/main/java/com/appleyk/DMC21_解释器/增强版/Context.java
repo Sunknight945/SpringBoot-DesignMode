@@ -30,6 +30,6 @@ public class Context {
             System.out.println("输入的表达式必须满足*/*/*/格式，否则无法识别！");
             return false;
         }
-        return finalExpression == null ? false : finalExpression.intercept(input);
+        return finalExpression == null ? false : finalExpression.interpret(input);
     }
 }
