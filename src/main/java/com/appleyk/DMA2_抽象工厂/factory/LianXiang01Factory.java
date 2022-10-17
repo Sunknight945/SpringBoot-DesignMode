@@ -16,7 +16,6 @@ import com.appleyk.DMA2_抽象工厂.mouse.LeiBoMouse;
  */
 public class LianXiang01Factory implements IComputerFactory {
 
-
     @Override
     public IProduceKeyBord createKeyBord() {
         // 使用雷柏的键盘

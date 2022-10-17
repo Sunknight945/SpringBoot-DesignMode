@@ -15,9 +15,9 @@ import com.appleyk.DMA1_工厂方法.DM1.WeiXin;
 public class ChatFactory1 {
     public IChat createChat(String tools){
         if("QQ".equals(tools)){
-            return  new QQ();
+            return new QQ();
         }else if("WeiXin".equals(tools)) {
-            return  new WeiXin();
+            return new WeiXin();
         }else{
             return null;
         }
