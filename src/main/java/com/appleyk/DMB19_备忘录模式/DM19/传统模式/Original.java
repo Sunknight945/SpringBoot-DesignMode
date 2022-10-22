@@ -25,7 +25,6 @@ public class Original {
      * @return 备忘录对象
      */
     public Memento createMemento() {
-
         /**
          * 每次都创建一个备忘录对象，并将旧值当参数给它
          * 也就是新进来的值，影响不到原来的备忘录对象

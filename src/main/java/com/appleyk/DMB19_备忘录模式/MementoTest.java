@@ -1,7 +1,7 @@
 package com.appleyk.DMB19_备忘录模式;
 
 import com.appleyk.DMB19_备忘录模式.DM19.事务回滚.OriginData;
-import com.appleyk.DMB19_备忘录模式.DM19.事务回滚.TransitionStorage;
+import com.appleyk.DMB19_备忘录模式.DM19.事务回滚.TransactionStorage;
 import com.appleyk.DMB19_备忘录模式.DM19.传统模式.Original;
 import com.appleyk.DMB19_备忘录模式.DM19.传统模式.Storage;
 
@@ -24,7 +24,7 @@ public class MementoTest {
         memento();
         System.out.println("========================== =========================");
         // 2、模拟事务回滚
-        transition();
+        transaction();
 
     }
 
@@ -54,7 +54,7 @@ public class MementoTest {
 
     }
 
-    private static void transition() {
+    private static void transaction() {
 
         // 初始化三条数据
         List<Integer> data = new ArrayList<>();
@@ -65,7 +65,7 @@ public class MementoTest {
         OriginData originData = new OriginData(data);
 
         // 1、添加一个元素，添加前，先备份下
-        TransitionStorage storage = new TransitionStorage(originData.createJournal());
+        TransactionStorage storage = new TransactionStorage(originData.createJournal());
         printLog("增加一个数据前", originData);
         originData.addData(4);
         // 2、添加一个元素后，再备份下

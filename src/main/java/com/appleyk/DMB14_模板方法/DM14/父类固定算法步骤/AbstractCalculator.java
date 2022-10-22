@@ -10,6 +10,7 @@ package com.appleyk.DMB14_模板方法.DM14.父类固定算法步骤;
  */
 public abstract class AbstractCalculator {
 
+    /**方法加final修饰下，防止子类恶意修改算法结构*/
     public final double calculate(String formula, String splitChar) {
         // 1、第一步，先根据计算公式和分隔符，拿到要计算的数值（假设这个是核心，不对外公布）
         double[] splits = split(formula, splitChar);

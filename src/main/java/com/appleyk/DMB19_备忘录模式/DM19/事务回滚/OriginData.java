@@ -20,11 +20,11 @@ public class OriginData {
         this.data = data;
     }
 
-    public TransitionJournal createJournal() {
-        return new TransitionJournal(++num, data);
+    public TransactionJournal createJournal() {
+        return new TransactionJournal(++num, data);
     }
 
-    public void restoreJournal(TransitionJournal journal) {
+    public void restoreJournal(TransactionJournal journal) {
         this.data = journal.getData();
         num = journal.getLogNum();
     }

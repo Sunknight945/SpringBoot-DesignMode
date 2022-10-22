@@ -3,7 +3,7 @@ package com.appleyk.DMB20_状态模式.DM20.自行车加速减速;
 import com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike.Bike;
 
 /**
- * <p></p>
+ * <p>状态模式测试</p>
  *
  * @author appleyk
  * @version v0.1.1

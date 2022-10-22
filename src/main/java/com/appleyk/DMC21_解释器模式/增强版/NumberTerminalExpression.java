@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * <p>数字终端表达式（这里主要判断数字是否是10以下）</p>
+ * <p>数字终端表达式（这里主要判断数字是否是10以下且是偶数）</p>
  *
  * @author Appleyk
  * @version v0.1.1
