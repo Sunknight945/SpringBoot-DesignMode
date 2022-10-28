@@ -1,9 +1,7 @@
 package com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike;
 
-import com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike.AGearState;
-
 /**
- * <p>自行车</p>
+ * <p>自行车 （相当于状态UML图中的Context类，拥有一些内部状态）</p>
  *
  * @author appleyk
  * @version v0.1.1

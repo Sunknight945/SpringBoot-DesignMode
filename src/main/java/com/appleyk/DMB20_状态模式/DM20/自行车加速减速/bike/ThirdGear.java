@@ -1,9 +1,5 @@
 package com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike;
 
-import com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike.AGearState;
-import com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike.Bike;
-import com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike.SecondGear;
-
 /**
  * <p>三挡</p>
  *

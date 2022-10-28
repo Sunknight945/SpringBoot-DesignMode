@@ -1,7 +1,7 @@
 package com.appleyk.DMB20_状态模式.DM20.自行车加速减速.bike;
 
 /**
- * <p>档位状态</p>
+ * <p>档位状态，任何状态都可以实现这个接口，来实现档位之间的互相替换</p>
  *
  * @author appleyk
  * @version v0.1.1
