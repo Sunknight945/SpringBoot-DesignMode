@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Data
-public class GumballMachine implements State{
+public class GumballMachine {
 
     HasQuarterState quarterState;
     NoQuarterState noQuarterState;
@@ -13,6 +13,7 @@ public class GumballMachine implements State{
     SoldState soldState;
     WinnerState winnerState;
     State state ;
+
     int count = 0;
 
     public GumballMachine(int count){
@@ -41,23 +42,19 @@ public class GumballMachine implements State{
         }
     }
 
-    @Override
     public void insertQuarter() {
         state.insertQuarter();;
     }
 
-    @Override
     public void turnCrank() {
         state.turnCrank();
         dispense();
     }
 
-    @Override
-    public void dispense() {
+    private void dispense() {
         state.dispense();
     }
 
-    @Override
     public void ejectQuarter() {
         state.ejectQuarter();
     }
