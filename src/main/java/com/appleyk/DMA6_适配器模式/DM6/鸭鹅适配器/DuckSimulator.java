@@ -33,6 +33,6 @@ public class DuckSimulator {
     }
 
     void simulatorQuack(Quackable quackable){
-        quackable.quack();;
+        quackable.quack();
     }
 }
