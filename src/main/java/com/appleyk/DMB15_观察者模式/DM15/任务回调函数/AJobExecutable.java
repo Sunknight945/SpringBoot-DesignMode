@@ -23,7 +23,7 @@ public abstract class AJobExecutable {
     // 这个方法后面留给单独的任务执行线程来调用
     public void execute(IJobListener listener){
         try {
-            execute(job,listener);
+            doExecute(job,listener);
             // lambda判断监听器是否不空，不空则执行对应的事件回调
             Optional.ofNullable(listener).ifPresent(l->l.onSuccess(job));
         } catch (Exception e){
@@ -32,5 +32,5 @@ public abstract class AJobExecutable {
     }
 
     // 这个方法留给具体的执行任务来实现（必须实现）
-    public abstract void execute(TJob job,IJobListener listener) throws Exception;
+    public abstract void doExecute(TJob job,IJobListener listener) throws Exception;
 }

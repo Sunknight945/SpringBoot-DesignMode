@@ -24,7 +24,7 @@ public class TDataTransferJob extends AJobExecutable{
     }
 
     @Override
-    public void execute(TJob job, IJobListener listener) throws Exception {
+    public void doExecute(TJob job, IJobListener listener) throws Exception {
         long totalSize = job.getSize();
         long finished = _10M;
         while (finished<totalSize){
