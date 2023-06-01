@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:01 2018-11-8
- * @version v0.1.1
+ * @version v0.1.2
  */
 public enum EWorkType {
 

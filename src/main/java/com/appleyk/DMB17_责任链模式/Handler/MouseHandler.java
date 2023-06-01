@@ -11,7 +11,7 @@ import com.appleyk.DMB17_责任链模式.DM17.model.Mouse;
  * <p>鼠标处理事件</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:26 2018-11-7
  */

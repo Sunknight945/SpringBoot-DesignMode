@@ -8,7 +8,7 @@ import com.appleyk.DMB20_状态模式.DM20.猫科B_组合_状态.behavior.ISwimB
  * <p>家养的猫</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 11:27 2019/12/6
  */

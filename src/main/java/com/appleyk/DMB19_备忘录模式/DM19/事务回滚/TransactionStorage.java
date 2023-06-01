@@ -7,7 +7,7 @@ import java.util.Map;
  * <p>事务存储类，每一个事务的提交日志都存储在该类中</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

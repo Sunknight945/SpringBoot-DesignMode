@@ -6,7 +6,7 @@ import java.util.Map;
  * <p>加法表达式，计算加法操作符（+）两边的表达式的解释结果</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/17:12:45
  */

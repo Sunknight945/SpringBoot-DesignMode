@@ -6,9 +6,9 @@ package com.appleyk.DMA3_单例模式.DM3;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:12 2018-11-6
- * @version v0.1.1
+ * @version v0.1.2
  */
-public class Singleton3 {
+public final class Singleton3 {
 
     // 私有构造器，防止外部new实例
     private Singleton3(){}

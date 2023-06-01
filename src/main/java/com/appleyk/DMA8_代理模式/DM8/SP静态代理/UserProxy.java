@@ -7,7 +7,7 @@ import com.appleyk.DMA8_代理模式.DM8.service.impl.UserImpl;
  * <p>用户代理类 == 静态代理模式，被代理的对象在编译时就知道了</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午5:27:46
  */

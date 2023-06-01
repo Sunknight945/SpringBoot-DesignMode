@@ -4,7 +4,7 @@ package com.appleyk.DMB15_观察者模式.DM15.RSS消息订阅;
  * <p>CSDN博客系统，可以理解为目标对象，继承订阅抽象类，实现消息的发布</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

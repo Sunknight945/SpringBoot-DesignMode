@@ -8,7 +8,7 @@ import com.appleyk.DMA7_装饰器模式.DM7.FolderDecorator;
  * <p>装饰者模式测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午4:05:50
  */

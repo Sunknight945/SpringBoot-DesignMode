@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * <p>解释器高级版测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/16:22:19
  */

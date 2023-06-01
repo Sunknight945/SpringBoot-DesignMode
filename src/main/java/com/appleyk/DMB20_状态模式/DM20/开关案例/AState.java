@@ -4,7 +4,7 @@ package com.appleyk.DMB20_状态模式.DM20.开关案例;
  * <p>抽象一个状态类</p>
  *
  * @author appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2019/12/6 10:59 PM
  */

@@ -12,7 +12,7 @@ import com.appleyk.DMA9_外观模式.DM9.moduleB.SubSystemD;
  * <p>外观模式测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 上午 8:30 2018-11-12
  */

@@ -9,7 +9,7 @@ import java.util.List;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
- * @version v0.1.1
+ * @version v0.1.2
  */
 public abstract class AbstractSubject implements INotify {
 

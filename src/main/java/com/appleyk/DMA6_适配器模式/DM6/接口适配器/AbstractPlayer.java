@@ -8,10 +8,11 @@ import com.appleyk.DMA6_适配器模式.DM6.IPlayer;
  *     2、抽象类中的非抽象方法：子类按需实现
  *     3、抽象类中的抽象方法：子类必须全部实现
  *     4、接口中的方法：实现类必须全部实现
+ *     接口适配器：抽象类
  * </p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午1:17:34
  */

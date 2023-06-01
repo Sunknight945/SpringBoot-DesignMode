@@ -6,7 +6,7 @@ package com.appleyk.DMC21_解释器模式.基础版;
  * </p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 19:50 2022/10/16
  */

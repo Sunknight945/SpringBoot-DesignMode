@@ -4,7 +4,7 @@ package com.appleyk.DMB20_状态模式.DM20.糖果公司.重构版;
  * <p>已售罄状态</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/27:16:29
  */

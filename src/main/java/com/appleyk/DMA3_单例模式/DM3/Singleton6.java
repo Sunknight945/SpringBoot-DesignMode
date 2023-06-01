@@ -4,7 +4,7 @@ package com.appleyk.DMA3_单例模式.DM3;
  * <p>枚举类</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/23:20:11
  */

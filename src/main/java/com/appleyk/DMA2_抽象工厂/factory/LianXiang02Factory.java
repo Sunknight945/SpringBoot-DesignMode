@@ -12,7 +12,7 @@ import com.appleyk.DMA2_抽象工厂.mouse.LuoJiMouse;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 上午 11:47 2018-11-6
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class LianXiang02Factory implements IComputerFactory {
 

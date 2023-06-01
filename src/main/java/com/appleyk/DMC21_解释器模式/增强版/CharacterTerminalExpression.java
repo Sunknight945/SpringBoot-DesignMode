@@ -12,7 +12,7 @@ import java.util.Set;
  * <p>字符终端表达式</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/16:21:39
  */

@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:14 2018-11-8
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class PupilStudent implements Serializable {
     

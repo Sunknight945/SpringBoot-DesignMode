@@ -8,7 +8,7 @@ import com.appleyk.DMB16_迭代器模式.DM16.MyCollection;
  * <p>迭代子模式测试 == 典型的类似集合的方式实现了我们自己的迭代器,通过迭代器实现元素的遍历</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

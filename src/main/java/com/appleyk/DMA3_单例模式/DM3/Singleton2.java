@@ -2,13 +2,13 @@ package com.appleyk.DMA3_单例模式.DM3;
 
 /**
  * <p>单例模式 -- 线程安全，对当前单例对象上锁</p>
- *
+ * 懒汉模式
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:12 2018-11-6
- * @version v0.1.1
+ * @version v0.1.2
  */
-public class Singleton2 {
+public final class Singleton2 {
 
     // 私有构造器，防止外部new实例
     private Singleton2(){}

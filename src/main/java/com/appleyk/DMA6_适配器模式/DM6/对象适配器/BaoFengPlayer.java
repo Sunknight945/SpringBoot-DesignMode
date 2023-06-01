@@ -4,10 +4,10 @@ import com.appleyk.DMA6_适配器模式.DM6.Mp3;
 import com.appleyk.DMA6_适配器模式.DM6.IPlayer;
 
 /**
- * <p>适配器 == 暴风音影播放器，将Mp3播放音乐的功能直接扩展到播放器里，即无需再实现播放器播放音乐的功能了</p>
- *
+ * <p>适配器 == 暴风影音播放器，将Mp3播放音乐的功能直接扩展到播放器里，即无需再实现播放器播放音乐的功能了</p>
+ * 对象适配器：组合
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午12:59:59
  */
@@ -28,6 +28,7 @@ public class BaoFengPlayer implements IPlayer {
         System.out.println("暴风影音实现播放MV功能");
     }
 
+    /**专业的事情交给专业的人来做*/
     @Override
     public void playMusics() {
         this.mp3.playMusics();

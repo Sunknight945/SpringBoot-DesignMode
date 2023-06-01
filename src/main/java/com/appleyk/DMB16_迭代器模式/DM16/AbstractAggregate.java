@@ -4,7 +4,7 @@ package com.appleyk.DMB16_迭代器模式.DM16;
  * <p>抽象出来一个聚集类 == 提供创建集合对象迭代器的一系列抽象方法</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

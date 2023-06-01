@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
  * <p>非终端表达式，组合其他表达式来构建一个新的expression</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/16:21:47
  */

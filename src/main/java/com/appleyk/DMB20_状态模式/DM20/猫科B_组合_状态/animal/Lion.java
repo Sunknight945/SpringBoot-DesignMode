@@ -9,7 +9,7 @@ import com.appleyk.DMB20_状态模式.DM20.猫科B_组合_状态.behavior.IClimb
  * <p>狮子</p>
  *
  * @author appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 11:37 2019/12/6
  */

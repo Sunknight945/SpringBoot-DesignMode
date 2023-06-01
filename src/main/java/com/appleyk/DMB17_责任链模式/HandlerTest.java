@@ -12,7 +12,7 @@ import java.util.List;
  * <p>责任链测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:55 2018-11-6
  */

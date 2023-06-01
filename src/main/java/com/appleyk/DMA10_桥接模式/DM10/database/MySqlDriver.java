@@ -4,7 +4,7 @@ package com.appleyk.DMA10_桥接模式.DM10.database;
  * <p>MySql数据库驱动类</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 4:36 2018-11-12
  */

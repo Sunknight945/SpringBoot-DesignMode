@@ -4,7 +4,7 @@ package com.appleyk.DMC23_中介者模式.基础版;
  * <p>人事中介者，负者联络公司男女同事之间的情愫</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/22:14:54
  */

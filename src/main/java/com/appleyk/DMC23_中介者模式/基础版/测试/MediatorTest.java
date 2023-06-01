@@ -8,7 +8,7 @@ import com.appleyk.DMC23_中介者模式.基础版.HrMediator;
  * <p>中介者测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/22:15:17
  */

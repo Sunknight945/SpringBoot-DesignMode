@@ -14,7 +14,7 @@ import com.appleyk.DMB12_享元模式.DM12.MyDbDriver;
  * 如果有相同的业务请求，直接返回在内存中已有的对象，避免重新创建。
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:23 2018-11-21
  */

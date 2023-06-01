@@ -4,7 +4,7 @@ package com.appleyk.DMB14_模板方法.DM14.父类固定算法步骤;
  * <p>定义抽象算法类</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

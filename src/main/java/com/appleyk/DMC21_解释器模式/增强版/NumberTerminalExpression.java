@@ -10,7 +10,7 @@ import java.util.Set;
  * <p>数字终端表达式（这里主要判断数字是否是10以下且是偶数）</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/16:21:49
  */

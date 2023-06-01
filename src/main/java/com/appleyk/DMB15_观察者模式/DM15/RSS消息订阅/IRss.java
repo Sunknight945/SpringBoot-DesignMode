@@ -4,7 +4,7 @@ package com.appleyk.DMB15_观察者模式.DM15.RSS消息订阅;
  * <p>消息订阅接口，提供一个订阅消息内容的实现</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

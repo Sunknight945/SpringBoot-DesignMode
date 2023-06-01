@@ -6,7 +6,7 @@ package com.appleyk.DMA6_适配器模式.DM6.接口适配器;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午1:20:15
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class CPlayer extends AbstractPlayer{
 

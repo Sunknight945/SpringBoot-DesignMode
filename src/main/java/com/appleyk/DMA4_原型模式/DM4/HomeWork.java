@@ -8,9 +8,9 @@ import java.util.Date;
 
 /**
  * <p>小学生的家庭作业</p>
- *
+ * 实现浅拷贝需要实现标记接口Cloneable，实现深拷贝需要实现标记接口Serializable
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 12:59 2018-11-8
  */

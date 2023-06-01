@@ -10,7 +10,7 @@ import java.util.Map;
  * <p>变量表达式,通过key找值</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date created on 2022/10/17:8:40
  */

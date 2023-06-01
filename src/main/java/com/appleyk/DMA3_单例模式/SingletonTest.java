@@ -8,7 +8,7 @@ import com.appleyk.DMA3_单例模式.DM3.*;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:09 2018-11-6
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class SingletonTest {
 
@@ -45,7 +45,7 @@ public class SingletonTest {
 
         /**
          * 以上五种单例模式，没有一种是十全十美的
-         * 就拿最后一种来说，通过内部类机制达到了线程安全且实例只被创建一次，这些都是JVM帮我们实现的，我们无需关心
+         * 拿第四种来说，通过内部类机制达到了线程安全且实例只被创建一次，这些都是JVM帮我们实现的，我们无需关心
          * 但是，如果内部类自己的构造函数出现了问题，而不是在创建instance实例的时候出现了问题
          * 这时候，我们试想一下，我们外部还能顺利拿到单例对象吗？答案是肯定不行
          * 虽然这无疑会增加一道风险，但是相比我们手动加同步块来说，要好的多了

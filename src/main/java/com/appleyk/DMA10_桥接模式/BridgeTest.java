@@ -16,7 +16,7 @@ import com.appleyk.DMA10_桥接模式.DM10.paint.shape.Square;
  * <p>桥接模式测试</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 4:34 2018-11-12
  */

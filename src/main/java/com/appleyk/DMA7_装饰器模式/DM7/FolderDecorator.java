@@ -6,7 +6,7 @@ package com.appleyk.DMA7_装饰器模式.DM7;
  * </p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午4:18:36
  */

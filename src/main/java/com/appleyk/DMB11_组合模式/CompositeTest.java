@@ -11,7 +11,7 @@ import com.appleyk.DMB11_组合模式.DM11.login.LoginDiagram;
  * 这种模式创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 1:05 2018-11-21
  */

@@ -15,7 +15,7 @@ import com.appleyk.DMA6_适配器模式.DM6.对象适配器.BaoFengPlayer;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 上午 2018年11月10日11:08:26
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class AdapterTest {
 

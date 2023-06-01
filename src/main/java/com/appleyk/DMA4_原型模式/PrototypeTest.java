@@ -14,7 +14,7 @@ import java.util.Date;
  * @author Appleyk
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 12:58 2018-11-8
- * @version v0.1.1
+ * @version v0.1.2
  */
 public class PrototypeTest {
     public static void main(String[] args) throws CloneNotSupportedException{

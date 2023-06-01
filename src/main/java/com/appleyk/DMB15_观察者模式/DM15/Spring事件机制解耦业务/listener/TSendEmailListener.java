@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * <p>发送邮件监听器</p>
  *
  * @author appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @github https://github.com/kobeyk
  * @date created on 13:38 2021/2/21

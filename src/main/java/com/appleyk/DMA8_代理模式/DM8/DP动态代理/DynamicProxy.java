@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
  * <p>动态代理类 == 程序运行时，代理类才知道被代理的对象是哪个</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午7:08:16
  */

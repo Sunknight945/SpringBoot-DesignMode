@@ -7,7 +7,7 @@ import java.util.List;
  * <p>领导身边的秘书 == 将领导作为被代理的对象，但是会延缓被代理对象的创建时间，最后实现签订接口</p>
  *
  * @author Appleyk
- * @version v0.1.1
+ * @version v0.1.2
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 2018年11月10日 - 下午8:54:45
  */
