@@ -2,6 +2,7 @@ package com.appleyk.DMA4_原型模式.DM4;
 
 import com.appleyk.utils.DateUtils;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
 
 import java.io.*;
 import java.util.Date;
@@ -14,6 +15,7 @@ import java.util.Date;
  * @blob https://blog.csdn.net/appleyk
  * @date Created on 下午 12:59 2018-11-8
  */
+@Data
 public class HomeWork implements Cloneable, Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -43,37 +45,6 @@ public class HomeWork implements Cloneable, Serializable {
 
     }
 
-    public EWorkType getType() {
-        return type;
-    }
-
-    public void setType(EWorkType type) {
-        this.type = type;
-    }
-
-    public Date getFinishTime() {
-        return finishTime;
-    }
-
-    public void setFinishTime(Date finishTime) {
-        this.finishTime = finishTime;
-    }
-
-    public Integer getPages() {
-        return pages;
-    }
-
-    public void setPages(Integer pages) {
-        this.pages = pages;
-    }
-
-    public PupilStudent getPupilStudent() {
-        return pupilStudent;
-    }
-
-    public void setPupilStudent(PupilStudent pupilStudent) {
-        this.pupilStudent = pupilStudent;
-    }
 
     /**
      * 对象浅拷贝  == 对象中按值类型传递部分均能完美拷贝走，但是按引用类型传递部分则拷贝不走
