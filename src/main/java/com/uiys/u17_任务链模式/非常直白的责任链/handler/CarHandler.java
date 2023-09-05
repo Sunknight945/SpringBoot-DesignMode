@@ -1,8 +1,7 @@
-package com.uiys.u17_任务链模式.handler;
+package com.uiys.u17_任务链模式.非常直白的责任链.handler;
 
-import com.uiys.u17_任务链模式.filter.CarFilter;
-import com.uiys.u17_任务链模式.handler.AbstractHandler;
-import com.uiys.u17_任务链模式.model.CarDomain;
+import com.uiys.u17_任务链模式.非常直白的责任链.filter.CarFilter;
+import com.uiys.u17_任务链模式.非常直白的责任链.model.CarDomain;
 
 import java.util.ArrayList;
 import java.util.List;

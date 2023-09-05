@@ -1,4 +1,4 @@
-package com.uiys.u17_任务链模式.handler;
+package com.uiys.u17_任务链模式.非常直白的责任链.handler;
 
 import lombok.Getter;
 import lombok.Setter;
