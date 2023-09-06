@@ -16,7 +16,7 @@ public class Test {
 
         LeaveRequestDomain leaveRequestDomain = new LeaveRequestDomain();
         leaveRequestDomain.setRequestPerson("ui");
-        leaveRequestDomain.setRequestDayNum(11);
+        leaveRequestDomain.setRequestDayNum(7);
 
         directLeader.process(leaveRequestDomain);
         System.out.println(leaveRequestDomain);
