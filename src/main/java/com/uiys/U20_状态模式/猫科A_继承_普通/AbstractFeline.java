@@ -1,0 +1,25 @@
+package com.uiys.U20_状态模式.猫科A_继承_普通;
+
+/**
+ * @author uiys
+ * @date 2023/9/6
+ */
+public abstract class AbstractFeline {
+
+    /**
+     * 假设所有猫科动物都会爬树（你觉得老虎、狮子会吗？）
+     */
+    public void climbing() {
+        System.out.println("我是【" + getName() + "】,我会爬树");
+    }
+
+    /**
+     * 假设所有猫科动物都会爬游泳（你觉得猫对游泳感兴趣吗？）
+     */
+    public void swimming() {
+        System.out.println("我是【" + getName() + "】,我会游泳");
+    }
+
+    public abstract String getName();
+
+}
