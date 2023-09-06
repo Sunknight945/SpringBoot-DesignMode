@@ -24,7 +24,7 @@ public abstract class AbstractHandler {
         AbstractHandler nextHandler1 = this;
         while (Objects.nonNull(nextHandler1)) {
             Integer currentDay1 = nextHandler1.getCurrentDay();
-            if (currentDay1 >= leaveRequestDomain.getRequestDayNum()) {
+            if (Objects.nonNull(currentDay1) && currentDay1 >= leaveRequestDomain.getRequestDayNum()) {
                 cc = Boolean.TRUE;
                 break;
             }

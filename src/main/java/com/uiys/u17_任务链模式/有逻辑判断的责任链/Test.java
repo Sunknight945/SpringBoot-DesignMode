@@ -9,12 +9,14 @@ public class Test {
         DirectLeader directLeader = new DirectLeader();
         DeptLeader deptLeader = new DeptLeader();
         Boss boss = new Boss();
+        HRHandler hrHandler = new HRHandler();
         directLeader.setNextHandler(deptLeader);
         deptLeader.setNextHandler(boss);
+        boss.setNextHandler(hrHandler);
 
         LeaveRequestDomain leaveRequestDomain = new LeaveRequestDomain();
         leaveRequestDomain.setRequestPerson("ui");
-        leaveRequestDomain.setRequestDayNum(8);
+        leaveRequestDomain.setRequestDayNum(11);
 
         directLeader.process(leaveRequestDomain);
         System.out.println(leaveRequestDomain);
